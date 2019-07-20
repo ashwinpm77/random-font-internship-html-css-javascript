@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #f0c865;
+}
+
+#main {
+    padding: 0px 100px;
+}
+
+header {
+    background-color: rgba(247, 137, 77, 0.5);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+header > h1 {
+    color: #4400ff;
+    font-size: 50px;
+}
+
+header > p {
+    font-size: 20px;
+}
+
+#main_section {
+    background-color: rgba(255, 204, 0, 0.5);
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+footer {
+    text-align: center;
+}
+
+#display {
+    background-color: rgba(163, 137, 33, 0.5);
+    box-sizing: border-box;
+    border-radius: 35px;
+}
+
+#input_text {
+    display: block;
+    border: none;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+#input_button {
+    display: block;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin: 20px auto;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: bisque;
+}
+
+#display_head {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px 0px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #main {
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    #main {
+        padding: 0 5px;
+    }
+}
